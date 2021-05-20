@@ -10,6 +10,7 @@ Give a summary description of Four design patterns that you choose from the foll
 > Do not add diagrams, and do not try to give a complete description of the patterns as found in the books. Rather think of how you would explain the essential ideas of these patterns in a few sentences to a colleague while drinking coffee.
 
 
+
 **Adapter Pattern:**
 
 Adapter pattern is used as a connector between two interfaces which cannot be connected directly. The adapter converts an existing interface to another interface based on client expectation.So the interface will become compatiable with the client's interface.
@@ -27,6 +28,7 @@ Observer Pattern is used to communocate between objects.If there is change in th
 Example: When an order is placed in jiomart, we get notified in different medium such as email, SMS and whatsup.
 
 Advantages :
+
 1.It helps to support loosely coupled principle between objects
 
 2.Observers can be added/ removed without any code modification.
@@ -42,6 +44,7 @@ Proxy pattern is used as a substitute or placeholder for an object.
 Example: Debit card or credit card is a proxy for cash,it can be used wherever the cash is required.
 
 Advantages:
+
 1.The proxy works even if the service object isn’t ready or is not available.
 
 2.Can introduce new proxies without changing the service or clients.
@@ -56,6 +59,7 @@ Mediator Pattern allows objects to communicate through the Mediator rather than 
 Example: Online game (LUDO) acts as a mediator where the players are not communicated directly.
 
 Advantages:
+
 1.Coupling between various components of a program can be reduced
 
 2.Makes the code reusable
